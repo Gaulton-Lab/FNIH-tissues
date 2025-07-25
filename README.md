@@ -39,12 +39,6 @@ galyleo launch -p platinum -q hcp-csd854 -A csd854 --time-limit 6:00:00 --conda-
 galyleo launch -p platinum -q hcp-csd854 -A csd854 --time-limit 3:00:00 --conda-env r44_env_v2 --memory 200 --cpus 6
 ```
 
-## Key Features
-- **Chunked processing**: Processes 500 genes at a time to manage memory
-- **Progress tracking**: Real-time progress updates with time estimates
-- **Memory optimization**: Immediate cleanup of processed chunks
-- **Parallel processing**: Utilizes multiple CPUs with future package
-
 ## Usage Notes
 - Adjust `chunk_size` parameter if memory issues persist
 - Monitor peak memory usage stays under allocated limits
